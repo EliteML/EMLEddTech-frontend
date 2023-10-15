@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import ProblemList from './components/ProblemList';
 
+/*
 function App() {
 
   const [data, setData] = useState<String | null>(null);
@@ -18,5 +20,13 @@ function App() {
     </div>
   );
 }
+*/
 
+const App: React.FC = () => {
+  return (
+    <div className='App'>
+      <ProblemList />
+    </div>
+  )
+}
 export default App;
